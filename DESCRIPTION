@@ -1,9 +1,22 @@
 Package: readmisc
-Title: What the Package Does (one line, title case)
+Title: Read Files Generated From Various Scientific Equipment
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Luke", "Johnston", email = "lwjohnst@gmail.com", role = c("aut", "cre"))
+Description: Import datasets from files generated from various scientific equipment,
+    such as a respirometer, or multiplex/plate-type machines.
 Depends: R (>= 3.4.3)
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+Imports: magrittr,
+    readr,
+    stringr,
+    tibble
+RoxygenNote: 6.0.1
+Roxygen: list(markdown = TRUE)
+URL: https://github.com/lwjohnst86/readmisc
+BugReports: https://github.com/lwjohnst86/readmisc/issues
