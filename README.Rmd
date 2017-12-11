@@ -14,6 +14,9 @@ knitr::opts_chunk$set(
 
 # readmisc
 
+[![Travis-CI Build Status](https://travis-ci.org/lwjohnst86/readmisc.svg?branch=master)](https://travis-ci.org/lwjohnst86/readmisc)
+[![Coverage Status](https://img.shields.io/codecov/c/github/lwjohnst86/readmisc/master.svg)](https://codecov.io/github/lwjohnst86/readmisc?branch=master)
+
 The goal of readmisc is to provide an interface to reading in output from various
 scientific equipment.
 
