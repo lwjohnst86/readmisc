@@ -1,0 +1,35 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# readmisc
+
+The goal of readmisc is to provide an interface to reading in output from various
+scientific equipment.
+
+# Installation
+
+```{r, eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("lwjohnst86/readmisc")
+```
+
+# Example
+
+This is an example function which shows you how to read in a OxyMax csv file:
+
+```{r example}
+library(readmisc)
+oxymax_file <- system.file("extdata", "oxymax_data.csv", package = "readmisc")
+read_oxymax(oxymax_file)
+```
